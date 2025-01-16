@@ -1,0 +1,25 @@
+package {{package}}Router
+
+import (
+	consts "wp_template_display/internal/consts"
+	{{pak}} "wp_template_display/internal/controller{{ctxpath}}"
+	mid "wp_template_display/internal/middleware"
+
+	"github.com/gofiber/fiber/v2"
+)
+
+func init() {
+	routerItem := consts.ControllerRouter{
+		Path:   "{{path}}",
+		Method: "{{method}}",
+		Func:   {{pak}}.{{name}},
+	}
+
+	routerItem.Middle = []func(c *fiber.Ctx) error{
+		// 认证中间件，根据需求可以去除或者添加
+		mid.JwtLoginMiddleware,
+		mid.UserAuthMiddleware([]string{"admin"}),
+	}
+
+	consts.ControllerList = append(consts.ControllerList, routerItem)
+}

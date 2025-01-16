@@ -1,0 +1,14 @@
+package {{pakname}}
+
+import (
+	ctx "wp_template_display/internal/controller"
+
+	"github.com/gofiber/fiber/v2"
+)
+
+func {{name}}(c *fiber.Ctx) error {
+	// 模型名称
+	c.Locals("Action", "{{action}}")
+
+	return ctx.CtxSuccess(c, nil)
+}

@@ -1,0 +1,1 @@
+import{g as a,b as s,f as t,o}from"./index-eTN858IF.js";const c={},n={class:"content-box"};function r(_,e){return o(),s("div",n,e[0]||(e[0]=[t("div",{class:"pageTitle"},"智能标注",-1)]))}const i=a(c,[["render",r],["__scopeId","data-v-28aa4085"]]);export{i as default};

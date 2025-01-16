@@ -1,0 +1,56 @@
+{
+    "images": [
+        {
+            "id": 1,
+            "file_name": "024c8ee0-e0a9-11ed-a2b0-f96e2b3c45a0.jpg",
+            "width": 1280,
+            "height": 720,
+            "valid": true,
+            "rotate": 0
+        }
+    ],
+    "annotations": [
+        {
+            "image_id": 1,
+            "id": 1,
+            "iscrowd": 0,
+            "segmentation": [
+                [
+                    1166,
+                    336,
+                    1164,
+                    334,
+                    1164,
+                    333,
+                    1161,
+                    330,
+                    1160,
+                    330,
+                    1159,
+                    329
+                ]
+            ],
+            "area": 2463.5,
+            "bbox": [
+                1091,
+                325,
+                75,
+                53
+            ],
+            "category_id": 1,
+            "order": 1
+        }
+    ],
+    "categories": [
+        {
+            "id": 0,
+            "name": "",
+            "supercategory": ""
+        },
+        {
+            "id": 1,
+            "name": "pig",
+            "supercategory": ""
+        }
+    ]
+}

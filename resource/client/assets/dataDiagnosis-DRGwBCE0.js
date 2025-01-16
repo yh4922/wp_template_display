@@ -1,0 +1,1 @@
+import{g as s,b as t,f as o,o as a}from"./index-eTN858IF.js";const c={},n={class:"content-box"};function r(d,e){return a(),t("div",n,e[0]||(e[0]=[o("div",{class:"pageTitle"},"数据诊断",-1)]))}const i=s(c,[["render",r],["__scopeId","data-v-d2502c73"]]);export{i as default};

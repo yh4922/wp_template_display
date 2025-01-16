@@ -1,0 +1,32 @@
+{
+    // 应用名称
+    "AppName": "WordpressTemplateDisplay",
+    // 运行时路径
+    "RuntimePath": "runtime",
+    // 服务配置
+    "Server": {
+        "Host": "0.0.0.0",
+        "Port": 4001
+    },
+    // 密码密钥库
+    "PwdSecret": {
+        "Key": "CfvXYTEX4R4iVA7o",
+        "IV": "W4cpN9UcczARJWQM"
+    },
+    // JWT密钥
+    "JwtSecret": {
+        "Key": "puGq6bavbed84hAfHdttYH7t",
+        "IV": "dwqmvECBWgKirJT7"
+    },
+    // 数据库配置
+    "Database": {
+        "Driver": "mysql",
+        "Host": "127.0.0.1",
+        "Port": 3306,
+        "Database": "test",
+        "Username": "test",
+        "Password": "GmpXGZXpQktJGdQ4"
+    },
+    // 缓存配置
+    "Cache": {}
+}

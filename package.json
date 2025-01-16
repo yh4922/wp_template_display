@@ -1,0 +1,16 @@
+{
+  "name": "wp_template_display_service",
+  "version": "1.0.0",
+  "description": "## 1.初始化",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vfox use -p golang@1.22.10 && sh scripts/build.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "inquirer": "^12.2.0"
+  }
+}
